@@ -1,11 +1,12 @@
 import React from 'react';
-import { Text } from '@sitecore-jss/sitecore-jss-react';
+import { Text, RichText } from '@sitecore-jss/sitecore-jss-react';
 
 const TheComponent = (props) => (
-  <div>
-    <p>TheComponent Component</p>
-    <Text field={props.fields.heading} />
-  </div>
+  <React.Fragment>
+    <p>custom para</p>
+    <Text tag="h2" className="display-4"   field={props.fields.heading} />
+    <RichText tag="h4" field={props.fields.content} /> 
+  </React.Fragment>
 );
 
 export default TheComponent;

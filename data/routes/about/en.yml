@@ -2,9 +2,14 @@ fields:
   pageTitle: About | Sitecore JSS
 placeholders:
   jss-main:
+  - componentName: TheComponent
+    fields:
+      heading: About JSS the component
+      content: |
+        <p> About JSS the component About JSS the component About JSS the component About JSS the component About About About About v About About About About About About About About About About About About </p>
   - componentName: ContentBlock
     fields:
-      heading: Using About with JSS
+      heading: About JSS
       content: |
-        <p>This is a live example of using Integrated About and Connected About with a JSS app.</p>
-     
+        <p>About About About About v About About About About About About About About About About About About </p>
+  

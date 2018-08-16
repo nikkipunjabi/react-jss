@@ -9,9 +9,11 @@ import { CommonFieldTypes, SitecoreIcon, Manifest } from '@sitecore-jss/sitecore
 export default function(manifest) {
   manifest.addComponent({
     name: 'TheComponent',
+    displayName: 'TheComponent',
     icon: SitecoreIcon.DocumentTag,
     fields: [
       { name: 'heading', type: CommonFieldTypes.SingleLineText },
+      { name: 'content', type: CommonFieldTypes.RichText },
     ],
     /*
     If the component implementation uses <Placeholder> or withPlaceholder to expose a placeholder,
