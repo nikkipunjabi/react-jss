@@ -1,0 +1,10 @@
+fields:
+  pageTitle: About | Sitecore JSS
+placeholders:
+  jss-main:
+  - componentName: ContentBlock
+    fields:
+      heading: Using About with JSS
+      content: |
+        <p>This is a live example of using Integrated About and Connected About with a JSS app.</p>
+     
