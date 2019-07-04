@@ -2,14 +2,8 @@ fields:
   pageTitle: About | Sitecore JSS
 placeholders:
   jss-main:
-  - componentName: TheComponent
-    fields:
-      heading: About JSS the component
-      content: |
-        <p> About JSS the component About JSS the component About JSS the component About JSS the component About About About About v About About About About About About About About About About About About </p>
   - componentName: ContentBlock
     fields:
-      heading: About JSS
+      heading: JSS About
       content: |
-        <p>About About About About v About About About About About About About About About About About About </p>
-  
+       About  This is a live set of examples of how to use JSS. For more information on using JSS, please see  About

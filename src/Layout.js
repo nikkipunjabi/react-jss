@@ -42,9 +42,9 @@ let Navigation = ({ t, i18n }) => (
       <NavLink to="/graphql" className="p-2 text-dark">
         {t('GraphQL')}
       </NavLink>
-      <NavLink to="/about" className="p-2 text-dark">
-        {t('About')}
-      </NavLink>
+        <NavLink to="/about" className="p-2 text-dark">
+            {t('About')}
+        </NavLink>
     </nav>
   </div>
 );
