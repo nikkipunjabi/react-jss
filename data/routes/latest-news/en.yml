@@ -1,0 +1,12 @@
+id: latest-news-page
+fields:
+  pageTitle: Welcome to LatestNews
+placeholders:
+  jss-main:
+  - componentName: LatestNews
+    fields:
+      latestNewsListing:
+        - id: latest-news-one
+        - id: latest-news-two        
+      heading: Welcome to LatestNews Listing
+
