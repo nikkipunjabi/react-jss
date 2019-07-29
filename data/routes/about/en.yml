@@ -1,9 +1,0 @@
-fields:
-  pageTitle: About | Sitecore JSS
-placeholders:
-  jss-main:
-  - componentName: ContentBlock
-    fields:
-      heading: JSS About
-      content: |
-       About  This is a live set of examples of how to use JSS. For more information on using JSS, please see  About

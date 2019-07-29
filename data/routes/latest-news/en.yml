@@ -1,6 +1,0 @@
-id: latest-news-page
-fields:
-  pageTitle: Welcome to LatestNews
-placeholders:
-  jss-main:
-  - componentName: LatestNews
