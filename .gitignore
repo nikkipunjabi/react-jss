@@ -20,6 +20,3 @@
 
 scjssconfig.json
 *.deploysecret.config
-
-/.idea
-/.vs
